@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dengf4.github.io/lab-7-react/",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
