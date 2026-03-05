@@ -35,23 +35,23 @@ export default class App extends React.Component {
         //   dislikes: 0,
         // },
         {
-          id: "43843734",
+          id: makeId(),
           title: "Hello world",
           author: "John React",
           content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at dictum quam, tristique egestas enim. Nunc porta tellus eu porttitor fringilla. Sed faucibus velit ac purus semper porttitor.",
-          createdAt: "03/02/2026",
+          createdAt: todayString(),
           imageDataUrl: "",      // optional Data URL created by FileReader
-          likes: 5,
+          likes: 0,
           dislikes: 0
         },
         {
-          id: "43843735",
+          id: makeId(),
           title: "Goodbye world",
           author: "Jane React",
           content: "Donec eget lorem sed massa accumsan posuere vel vitae felis. Vivamus sagittis lacinia eros, sit amet egestas nulla pharetra non. Donec aliquam magna et sodales venenatis.",
-          createdAt: "03/02/2026",
+          createdAt: todayString(),
           imageDataUrl: "",      // optional Data URL created by FileReader
-          likes: 6,
+          likes: 0,
           dislikes: 0
         }
 
